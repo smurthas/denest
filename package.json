@@ -1,0 +1,26 @@
+{
+  "name": "denest",
+  "version": "0.0.1",
+  "description": "Extract nest values from Javascript objects and arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_PATH=lib:test/fixtures/blocks istanbul cover _mocha -- -R spec && echo 👍"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smurthas/denest.git"
+  },
+  "author": "Simon Murtha Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smurthas/denest/issues"
+  },
+  "homepage": "https://github.com/smurthas/denest",
+  "dependencies": {
+    "esprima": "^1.2.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "istanbul": "~0.2.7"
+  }
+}
